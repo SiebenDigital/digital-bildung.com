@@ -1,0 +1,19 @@
+{
+  "name": "digital-bildung.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prefixer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.0.1"
+  }
+}

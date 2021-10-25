@@ -1,0 +1,4 @@
+baseURL = "https://digital-bildung.com/"
+languageCode = "de"
+title = "Digital Bildung"
+theme = "digital-bildung-theme"

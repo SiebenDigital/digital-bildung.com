@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="container mx-auto px-4 py-24 bg-white my-24">
+    <h1 class="text-3xl">Digital Kurse für Senior*innen und Einsteigende.</h1>
+    <div class="text-gray-500">Hier entsteht eine Online-Kurs Seite.</div>
+
+    {{ range (where .Site.Pages "Section" "blog")}}
+        {{ partial "blog-post.html" . }}
+    {{end }}
+
+</main>
+{{ end }}
